@@ -1,0 +1,21 @@
+📤 INSTRUCTIONS UPLOAD FTP
+==========================
+
+1. Connectez-vous à votre FTP avec FileZilla/Cyberduck
+   Host: ftp.rassoshare.fr (ou fourni par hébergeur)
+   
+2. Allez dans le dossier public_html/ (ou www/ ou htdocs/)
+
+3. Uploadez TOUT le contenu de ce dossier dans public_html/
+
+4. Sur le serveur, renommez .env.example en .env
+   Éditez .env avec vos vrais credentials MySQL
+
+5. Créez votre base MySQL via cPanel/phpMyAdmin
+
+6. Importez le schéma SQL :
+   database/schema_mysql_complete.sql
+
+7. Testez https://rassoshare.fr
+
+📚 Guide complet : consultez GUIDE_FTP_UPLOAD.md dans votre projet
